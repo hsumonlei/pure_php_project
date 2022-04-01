@@ -1,0 +1,38 @@
+1====user table
+-id
+-name
+-email
+-password
+-created_at
+
+Create table users(
+id INT(10) Unsigned PRIMARY KEY Auto_increment,
+name VARCHAR(60),
+email VARCHAR(30),
+password VARCHAR(20),
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+
+2=====post table
+-id
+-title
+-description
+-created_at
+create TABLE posts(
+id INT(10) Unsigned PRIMARY KEY Auto_increment,
+title VARCHAR(255),
+description TEXT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+3=== database connection
+ config.php
+
+
+ 4=== login
+ index.php
+
+ 5==== register
+ register.php
+    - will use (bootstrap)->go to getbootstrap.com ->get started -> copy css
+    - create own style.css
+    
